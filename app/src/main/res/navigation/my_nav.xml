@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.devanand.vedteamcricketapp.screens.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_homeFragment_to_openingPlayerFragment"
+            app:destination="@id/openingPlayerFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/openingPlayerFragment"
+        android:name="com.devanand.vedteamcricketapp.screens.OpeningPlayerFragment"
+        android:label="OpeningPlayerFragment"
+        tools:layout="@layout/fragment_opening_player">
+        <action
+            android:id="@+id/action_openingPlayerFragment_to_scorecardFragment"
+            app:destination="@id/scorecardFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/scorecardFragment"
+        android:name="com.devanand.vedteamcricketapp.screens.ScorecardFragment"
+        android:label="ScorecardFragment"
+        tools:layout="@layout/fragment_scorecard"/>
+</navigation>

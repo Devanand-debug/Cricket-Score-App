@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Ved Team Cricket App</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="team1">Team1</string>
+    <string name="team2">Team2</string>
+    <string name="bat">Bat</string>
+    <string name="bowl">Bowl</string>
+    <string name="toss_won_by">Toss won by?</string>
+    <string name="opted_to">Opted to?</string>
+    <string name="overs">Overs?</string>
+    <string name="team1_name">Team1 Name</string>
+    <string name="team2_name">Team2 Name</string>
+    <string name="start_match">Start Match</string>
+    <string name="striker">Striker</string>
+    <string name="non_striker">Non Striker</string>
+    <string name="opening_bowler">Opening Bowler</string>
+    <string name="player_name">Player Name</string>
+    <string name="batter">Batter</string>
+    <string name="r">R</string>
+    <string name="b">B</string>
+    <string name="_4s">4s</string>
+    <string name="_6s">6s</string>
+    <string name="sr">SR</string>
+</resources>

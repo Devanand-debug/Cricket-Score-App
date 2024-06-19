@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.VedTeamCricketApp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorAccent">@color/color_accent</item>
+        <item name="android:statusBarColor">@color/color_primary</item>
+    </style>
+
+    <style name="Theme.VedTeamCricketApp" parent="Base.Theme.VedTeamCricketApp" />
+</resources>
